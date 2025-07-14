@@ -1,26 +1,31 @@
-import React from 'react'
-import Navbar from './sections/Navbar'
-import Hero from './sections/Hero'
-import About from './sections/About'
-import Projects from './sections/Projects'
-import Learning from './sections/Learning'
-import Testimonial from './sections/Testimonial'
-import Contact from './sections/Contact'
-import Footer from './sections/Footer'
+import Hero from './sections/Hero';
+import About from './sections/About';
+import Project from './sections/Projects';
+import Contact from './sections/Contact';
+import Navbar from './sections/Navbar';
 
-const App = () => {
+function App() {
   return (
-    <div className='container mx-auto max-w-7xl'>
+    <div>
       <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Learning />
-      <Testimonial />
-      <Contact />
-      <Footer />
+
+      <section id="home">
+        <Hero />
+      </section>
+
+      <section id="about">
+        <About />
+      </section>
+
+      <section id="work">
+        <Project />
+      </section>
+
+      <section id="contact">
+        <Contact />
+      </section>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
