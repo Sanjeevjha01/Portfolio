@@ -3,6 +3,7 @@ import About from './sections/About';
 import Project from './sections/Projects';
 import Contact from './sections/Contact';
 import Navbar from './sections/Navbar';
+import Footer from './sections/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <section id="contact">
         <Contact />
       </section>
+      <Footer/>
     </div>
   );
 }
