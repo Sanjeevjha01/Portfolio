@@ -4,6 +4,7 @@ import Project from './sections/Projects';
 import Contact from './sections/Contact';
 import Navbar from './sections/Navbar';
 import Footer from './sections/Footer';
+import Testimonial from './sections/Testimonial';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <section id="work">
         <Project />
       </section>
+      <Testimonial/>
 
       <section id="contact">
         <Contact />
