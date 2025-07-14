@@ -1,45 +1,12 @@
-# 💼 Sanjeev's Developer Portfolio
+# React + Vite
 
-A modern, interactive, and responsive developer portfolio built with **React**, **Tailwind CSS**, and **Framer Motion**, showcasing my skills, projects, tech journey, and contact info in one sleek single-page app.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Live Demo
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🔗 [View Portfolio Live](https://your-live-demo-link.com)
+## Expanding the ESLint configuration
 
----
-
-## 📌 Features
-
-- ✨ **Framer Motion Animations** – Smooth transitions and interactive motion effects.
-- 🎯 **Responsive Design** – Optimized for mobile, tablet, and desktop screens.
-- 🛠 **Project Showcase** – Detailed cards with images, tech stack, and GitHub links.
-- 🧠 **Learning Timeline** – Chronological display of my tech journey (2023–2025).
-- 📷 **Live Image Preview on Hover** – Displays a preview that follows your cursor.
-- 🔗 **Social Media Footer** – Quick links to connect on LinkedIn, Instagram, WhatsApp, and more.
-
----
-
-## 🧰 Tech Stack
-
-| Category       | Tools Used                                      |
-|----------------|--------------------------------------------------|
-| **Frontend**   | React, Tailwind CSS, Framer Motion               |
-| **Icons/Assets** | SVGs, PNGs, custom illustrations                |
-| **Data Handling** | Component-based props and constants             |
-| **API Testing (projects)** | Postman, REST APIs                      |
-| **Deployment** | Vercel / Netlify (recommendation)               |
-
----
-
-## 📂 Project Structure
-
-```bash
-src/
-├── assets/        # Icons, images, and logos
-├── components/    # Reusable UI components (Navbar, Footer, Project cards, etc.)
-├── constants/     # Static data (projects, socials, learning, reviews)
-├── pages/         # Page components (Home, Projects, Contact, etc.)
-├── App.jsx        # Root component
-└── main.jsx       # React app entry point (with ReactDOM.render)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
