@@ -8,10 +8,7 @@ import todo from "../assets/icons/to-do-list.svg";
 // app images
 import weatherApp from "../assets/constantImages/weather.png";
 import wineApp from "../assets/constantImages/wine.png";
-import usermanagementApp from "../assets/constantImages/usermanagement.png";
-import todoApp from "../assets/constantImages/todo.png";
-import ecommerceApp from "../assets/constantImages/ecommerce.jpg";
-import nodejsBackend from "../assets/constantImages/nodejsBackend.png";
+import ecommerceApp from "../assets/constantImages/ecom app.jpg";
 // social icons
 import whatsapp from "../assets/social/whatsApp.svg";
 import instagram from "../assets/social/instagram.svg";
@@ -41,102 +38,8 @@ import expo_blue from "../assets/logo/expo_blue.svg";
 import api from "../assets/logo/api.svg";
 
 export const myProjects = [
-  {
+    {
     _id: 1,
-    title: "Production Node.js E-Commerce Backend Server",
-    description:
-      "A production-ready Node.js eCommerce backend with user auth, order & product management, payment integration, and robust error handling.",
-    subDescription: [
-      "Built using Node.js, Express, and MongoDB for scalable backend performance.",
-      "Integrated JWT-based user authentication and role-based access.",
-      "Implemented product, order, and cart management with secure API endpoints.",
-      "Added Stripe payment integration and detailed error handling.",
-    ],
-    href: "https://github.com/Sanjeevjha01/production-nodejs-ecommerce-app",
-    logo: ecommerceBackend,
-    image: nodejsBackend,
-    tags: [
-      { _: 1, name: "Node.js", path: nodejs },
-      { id: 2, name: "Express", path: express },
-      { id: 3, name: "MongoDB", path: mongodb },
-      { id: 4, name: "Stripe", path: stripe },
-    ],
-  },
-  {
-    _id: 2,
-    title: "User Management App",
-    description:
-      "React Native app for managing users with add, update, delete, and search functionalities connected to a real-time backend API.",
-    subDescription: [
-      "Built with React Native and TypeScript using Hooks.",
-      "Integrated with RESTful APIs for real-time user data.",
-      "Designed smooth UI and UX for seamless user interaction.",
-      "Implements local storage and fetch operations for data sync.",
-    ],
-    href: "https://github.com/Sanjeevjha01/User-Management-APP",
-    logo: userManagement,
-    image: usermanagementApp,
-    tags: [
-      { id: 1, name: "React Native", path: react },
-      { id: 2, name: "API", path: api },
-    ],
-  },
-  {
-    _id: 3,
-    title: "To-Do App",
-    description:
-      "A simple and clean React Native to-do app allowing users to manage daily tasks effectively.",
-    subDescription: [
-      "Developed in React Native with TypeScript.",
-      "Supports task addition and deletion with smooth UI transitions.",
-      "Focus on performance and minimal design.",
-      "Ideal for daily productivity tracking.",
-    ],
-    href: "https://github.com/Sanjeevjha01/To-Do-App",
-    logo: todo,
-    image: todoApp,
-    tags: [{ id: 1, name: "React Native", path: react }],
-  },
-  {
-    _id: 4,
-    title: "Wine Store App",
-    description:
-      "A modern mobile wine store application built using React Native and Expo.",
-    subDescription: [
-      "Developed with React Native & Expo for cross-platform compatibility.",
-      "Includes features like cart, wishlist, search, and deals.",
-      "Focused on user experience with categorized browsing.",
-      "Designed with a polished UI for premium look and feel.",
-    ],
-    href: "https://github.com/Sanjeevjha01/Wine-App",
-    logo: wine,
-    image: wineApp,
-    tags: [
-      { id: 1, name: "React Native", path: react },
-      { id: 2, name: "Expo", path: expo },
-    ],
-  },
-  {
-    _id: 5,
-    title: "Weather App",
-    description:
-      "A minimal and stylish weather app that displays current weather using a public API.",
-    subDescription: [
-      "Built with HTML, CSS, and JS to consume OpenWeather API.",
-      "Responsive layout with a focus on mobile-first design.",
-      "Shows current temperature, condition, and location.",
-    ],
-    href: "https://github.com/Sanjeevjha01/Weather-App",
-    logo: weather,
-    image: weatherApp,
-    tags: [
-      { id: 1, name: "HTML", path: html5 },
-      { id: 2, name: "CSS", path: css3 },
-      { id: 3, name: "JavaScript", path: javascript },
-    ],
-  },
-  {
-    _id: 6,
     title: "Ecommerce App",
     description:
       "An ecommerce front-end application to browse and purchase products online.",
@@ -158,6 +61,47 @@ export const myProjects = [
       { id: 7, name: "expo", path: expo_blue },
     ],
   },
+   {
+    _id: 2,
+    title: "Weather App",
+    description:
+      "A minimal and stylish weather app that displays current weather using a public API.",
+    subDescription: [
+      "Built with HTML, CSS, and JS to consume OpenWeather API.",
+      "Responsive layout with a focus on mobile-first design.",
+      "Shows current temperature, condition, and location.",
+    ],
+    href: "https://github.com/Sanjeevjha01/Weather-App",
+    logo: weather,
+    image: weatherApp,
+    tags: [
+      { id: 1, name: "HTML", path: html5 },
+      { id: 2, name: "CSS", path: css3 },
+      { id: 3, name: "JavaScript", path: javascript },
+    ],
+  },
+
+  {
+    _id: 3,
+    title: "Wine Store App",
+    description:
+      "A modern mobile wine store application built using React Native and Expo.",
+    subDescription: [
+      "Developed with React Native & Expo for cross-platform compatibility.",
+      "Includes features like cart, wishlist, search, and deals.",
+      "Focused on user experience with categorized browsing.",
+      "Designed with a polished UI for premium look and feel.",
+    ],
+    href: "https://github.com/Sanjeevjha01/Wine-App",
+    logo: wine,
+    image: wineApp,
+    tags: [
+      { id: 1, name: "React Native", path: react },
+      { id: 2, name: "Expo", path: expo },
+    ],
+  },
+ 
+
 ];
 
 export const mySocials = [
